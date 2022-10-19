@@ -1,0 +1,51 @@
+body {
+    background-color: #dfdfeb;
+    margin: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+#b-header {
+    max-width: 960px;
+    height: 130px;
+}
+
+#b-header-icon {
+    float: left;
+    width: 110px;
+    height: 110px;
+}
+
+#b-header-text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+div#body {
+    font-size: large;
+}
+
+a {
+    color: #ae4949;
+    text-decoration: none;
+}
+
+.slider_image {
+    height: 200px;
+}
+
+#按鈕 {
+    background-color: floralwhite;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 960px) {
+    div#body {
+        max-width: 960px;
+    }
+}
